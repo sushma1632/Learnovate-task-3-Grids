@@ -1,0 +1,95 @@
+body{
+    color: white;
+    text-align: center;
+    background:url("https://i.pinimg.com/originals/19/01/e0/1901e0a29f2146db0df980e9cdb9c519.jpg") no-repeat center center / cover;
+}
+
+
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    margin-left: 120px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    margin-left: 120px;
+    
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    margin-left: 120px;
+    
+}
+
+@media (max-width: 700px){
+    
+    .container1{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 600px;
+        margin:0 120px;
+    }
+    
+    .container2{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 600px;
+        margin:0 120px;
+        
+    }
+    
+    .container3{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 600px;
+        margin:0 120px;
+        
+        
+    }    
+
+    
+}
+
+
+@media (max-width: 500px){
+    
+    .container1{
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 600px;
+        
+    }
+    
+    .container2{
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 600px;
+        
+        
+    }
+    
+    .container3{
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 600px;
+      
+        
+        
+    }    
+
+    
+}
